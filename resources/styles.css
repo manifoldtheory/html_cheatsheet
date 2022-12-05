@@ -1,0 +1,92 @@
+body {
+    background-color: antiquewhite;
+}
+
+table, tbody, tr, th, td {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th {
+    color: white;
+}
+
+a {
+    color: #4d8;
+}
+
+td {
+    background-color: yellow;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: #36b;;
+}
+
+td {
+    background-color: rgb(0, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+div {
+    padding-right: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.tables {
+    display: flex;
+}
+
+/* 12 bit color rainbow palette
+https://iamkate.com/data/12-bit-rainbow/ */
+
+.table-headings h1 {
+    color: #817;
+}
+
+.table-headings h2 {
+    color: #a35;
+}
+
+.table-headings h3 {
+    color: #c66;
+}
+
+.table-headings h4 {
+    color: #e94
+}
+
+.table-headings h5 {
+    color: #ed0;
+}
+
+.table-headings h6 {
+    color: #ad5;
+}
+
+.table-headings p {
+    color: #4d8;
+}
+
+
+/* image table settings */
+.table-image {
+    color: white;
+}
+
+img {
+    margin: 10px;
+}
+
+.anchor_padding {
+    padding: 3.5px 0;
+}
