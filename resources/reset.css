@@ -1,0 +1,10 @@
+/* resets! */
+
+/* button resets */
+button, button:link, button:visited, button:hover, button:active {
+    color: black;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+} 
+
