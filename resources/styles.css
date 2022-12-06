@@ -44,7 +44,73 @@ div {
 
 .tables {
     display: flex;
+    margin-bottom: 20px;
 }
+
+button {
+    display: inline;
+    margin: 10px 20px;
+}
+
+.button_container {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+}
+
+.flat_buttons,
+.flat_buttons:hover,
+.flat_buttons:active {
+    font-size: large;
+    padding: 30px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#yes_b {
+    background-color: #4d8;
+    color: black;
+}
+
+#yes_b:hover {
+    background-color: green;
+    color: white;
+}
+
+#no_b {
+    background-color: #817;
+    color: white;
+    font-style: bold;
+}
+
+#no_b:hover {
+    background-color: #a35;
+    color: black;
+}
+
+#may_b {
+    background-color: tan;
+    font-style: italic;
+}
+
+#may_b:hover {
+    transition: all 1s ease-in;
+    font-size: small;
+    background-color: #0bc;
+    color: white;
+}
+
+#so_b {
+    background-color: darkorange;
+}
+
+#so_b:hover {
+    background-color: black;
+    color: darkorange;
+    font-size: larger;
+    font-style: bold;
+}
+
 
 /* 12 bit color rainbow palette
 https://iamkate.com/data/12-bit-rainbow/ */
